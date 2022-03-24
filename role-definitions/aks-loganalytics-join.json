@@ -1,0 +1,16 @@
+{
+    "Name": "AKS Log Analytics Join",
+    "id": "9d8b60be-a2bc-4711-822c-2000fb08da55",
+    "IsCustom": true,
+    "Description": "Can join an AKS cluster to a log analytics workspace",
+    "AssignableScopes": [
+        "/subscriptions/d43f9b10-9c66-43f8-a701-afc0ad123cfd"
+      ],
+    "Actions": [
+      "Microsoft.OperationalInsights/workspaces/sharedkeys/read",
+      "Microsoft.OperationsManagement/solutions/write"
+    ],
+    "NotActions": [
+
+    ]
+  }

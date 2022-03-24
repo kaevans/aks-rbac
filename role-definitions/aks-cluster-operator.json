@@ -1,0 +1,31 @@
+{
+    "name": "AKS Cluster Operator",
+    "id": "466329e4-54bc-47dd-8bac-ad6a4e67e9c2",
+    "description": "Grants access to read and write Azure Kubernetes Service clusters",
+    "isCustom": "true",
+    "assignableScopes": [
+        "/subscriptions/d43f9b10-9c66-43f8-a701-afc0ad123cfd"
+    ],
+    "permissions": [
+        {
+            "actions": [
+                "Microsoft.Compute/diskEncryptionSets/read",
+                "Microsoft.Compute/proximityPlacementGroups/write",
+                "Microsoft.Network/applicationGateways/read",
+                "Microsoft.Network/applicationGateways/write",
+                "Microsoft.Network/virtualNetworks/subnets/join/action",
+                "Microsoft.Network/virtualNetworks/subnets/join/action",
+                "Microsoft.Network/publicIPAddresses/join/action",
+                "Microsoft.Network/publicIPPrefixes/join/action",
+                "Microsoft.OperationalInsights/workspaces/sharedkeys/read",
+                "Microsoft.OperationalInsights/workspaces/read",
+                "Microsoft.OperationsManagement/solutions/write",
+                "Microsoft.OperationsManagement/solutions/read",
+                "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action"
+            ],
+            "dataActions": [],
+            "notActions": [],
+            "notDataActions": []
+        }
+    ]
+}

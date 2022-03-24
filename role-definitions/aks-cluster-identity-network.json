@@ -1,0 +1,26 @@
+{
+    "name": "AKS Cluster Identity Network",
+    "id": "363c1260-b39e-44ef-9c5a-b3d2efd17cba",
+    "description": "AKS Cluster Identity Network",
+    "isCustom": "true",
+    "assignableScopes": [
+        "/subscriptions/d43f9b10-9c66-43f8-a701-afc0ad123cfd"
+    ],
+    "permissions": [
+        {
+            "actions": [
+                "Microsoft.Network/networkSecurityGroups/write",
+                "Microsoft.Network/networkSecurityGroups/read",
+                "Microsoft.Network/virtualNetworks/subnets/read",
+                "Microsoft.Network/virtualNetworks/subnets/join/action",
+                "Microsoft.Network/routeTables/routes/read",
+                "Microsoft.Network/routeTables/routes/write",
+                "Microsoft.Network/virtualNetworks/subnets/read",
+                "Microsoft.Network/privatednszones/*"
+            ],
+            "dataActions": [],
+            "notActions": [],
+            "notDataActions": []
+        }
+    ]
+}
